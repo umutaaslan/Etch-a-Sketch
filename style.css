@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container > div > div {
+    width: 50px;
+    height: 50px;
+    border: 0.3px solid rgb(0, 191, 22);
+}
+
+
+/* for frame */
+.container > div:first-child {
+    border-left: 2px solid rebeccapurple;
+}
+
+.container > div:last-child {
+    border-right: 2px solid rebeccapurple;
+}
+
+.container > div > div:last-child {
+    border-bottom: 2px solid rebeccapurple;
+}
+
+.container > div > div:first-child {
+    border-top: 2px solid rebeccapurple;
+}
+/* for frame */
+
+
+.container {
+    display: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridScaleInput {
+    width: 250px;
+}
